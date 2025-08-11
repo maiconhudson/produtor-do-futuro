@@ -1,0 +1,52 @@
+
+
+body{background: rgb(28, 28, 53);
+    font-family: Arial, Helvetica, sans-serif;
+    height:100%;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+   
+}
+
+h1{text-align: center;
+font-size: 36px;
+color: #ffff;}
+
+h2{color: #051626;;
+  margin-bottom: 20px;
+  font-size: 24px;
+
+}
+main{display: flex;
+    margin-bottom:20px ;
+    gap:20px;
+
+}
+
+
+section.sessao-maior {background: #f8f9fa; 
+  width: 100%;
+  border-radius: 8px;
+ padding: 30px
+;
+height: 400px;
+
+}
+div.area-codigo{
+    background: #051626;
+    height: calc(100% - 70px);
+    border-radius: 8px;
+    padding: 10px;
+    color:hsl(220, 6%, 91%) ;
+    font-size: 14px;
+}
+.area-resultado{background: #f8f9fa;
+border-radius:8px ;
+height: calc(100% - 70px);
+display: flex;
+align-items: center;
+justify-content: center;
+color: #999;
+
+}
